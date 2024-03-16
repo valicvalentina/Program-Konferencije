@@ -1,0 +1,53 @@
+
+.button-attendees{
+    height: 50px;
+    width: 200px;
+    color:teal;
+}
+
+.special-event {
+  background-color: white;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.special-event-info {
+  margin: 20px;
+  display: block;
+  text-align: left;
+}
+
+.special-event-list-element {
+  border: 2px solid #2a8686;
+  border-radius: 20px;
+  margin: 20px;
+  background-color: #93d1d1;
+}
+
+.special-event-info span {
+  color: white;
+  font-weight: bold;
+  margin-left: 12px;
+  margin-right: 12px;
+}
+
+.text-special-events{
+  background-color: #d3d3d3;
+  border-radius: 5px;
+  font-size: medium;
+  font-style: revert;
+  color: black;
+  margin: 10px;
+
+}
+
+.user-container {
+  display: flex;
+  margin:10px;
+  color: teal;
+  width:500px;
+}
+.user-container span {
+  color:black;
+  font-size: 15px;
+}

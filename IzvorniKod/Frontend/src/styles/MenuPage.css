@@ -1,0 +1,16 @@
+#menu {
+    justify-content: center;
+    display: grid;
+    grid-template-columns: max-content;
+
+}
+
+#name {
+    color: #2a8686;
+    margin: 50px;
+}
+
+#menu-button-link {
+    font-weight: bold;
+    color: white;
+}

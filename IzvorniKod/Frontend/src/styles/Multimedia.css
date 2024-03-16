@@ -1,0 +1,53 @@
+.folders {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    justify-content: space-between;
+    margin: 0px 320px;
+}
+
+.icon-container {
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.img-card {
+    margin: 5px;
+    width: 250px;
+    height: 250px;
+}
+
+.gallery {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    justify-content: space-around;
+    margin: 0 50px;
+}
+
+.upload-container {
+    display: flex;
+    align-items: baseline;
+}
+
+.upload-icon {
+    justify-self: end;
+}
+
+.image-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.multimedia-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.ytb-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}

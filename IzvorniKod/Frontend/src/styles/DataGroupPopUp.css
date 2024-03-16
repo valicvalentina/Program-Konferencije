@@ -1,0 +1,38 @@
+
+.outer {
+    display:flex;
+    justify-content: space-around;
+    justify-items: center;
+    flex-direction: column;
+    align-self: center;
+    border: 2px solid teal;
+    border-radius: 25px;
+    background-color: aliceblue;
+}
+
+.pb-50 {
+    padding-bottom: 50px;
+}
+
+.centered-container {
+    align-self: center;
+}
+
+
+.pop {
+    position: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+
+}
+
+.form-template{
+    margin-left: 150px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-items: stretch;
+    flex-direction: row;
+    align-self: center;
+    justify-content: space-around;
+    align-items: center;
+}
+

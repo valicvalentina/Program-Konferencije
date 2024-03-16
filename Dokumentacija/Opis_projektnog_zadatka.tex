@@ -1,0 +1,59 @@
+\chapter{Opis projektnog zadatka}
+		
+	
+		
+	
+    Cilj ovog projekta je razviti programsku podršku 
+    za stvaranje web aplikacije “Program Konferencije” 
+    koja pruža učinkovit informacijski sustav koji omogućuje
+    praćenje dolazaka sudionika na konferenciju, 
+    sudjelovanje sudionika u glavnim i popratnim događanjima na
+    konferenciji i davanje svih potrebnih informacija sudionicima. 
+    Registriranim korisnicima konferencije informacijski 
+    sustav služi kao temeljno mjesto za dobivanje informacije,
+    dok organizator pomoću njega ima mogućnost distribucije 
+    raznih materijala sudionicima, davanja svih potrebnih 
+    informacija te praćenja aktivnosti sudionika 
+    tijekom konferencije. 
+    Ako korisnik nije registriran, na web stranici može 
+    vidjeti samo temeljni opis događaja i tema o kojima 
+    se raspravlja na konferenciji.
+    \newline
+    \newline
+    Četiri su vrste korisnika u informacijskom sustavu:
+    
+    \item\textbf{Vlasnik sustava} određuje administratora za svaku pojedinu konferenciju te kreira
+    generalne podatke o konferencijama čiji se rad prati.
+		
+	\item\textbf{Glavni administrator} konferencije imenuje operativne administratore,  te upisuje konkretne i detaljne podatke o konferenciji. Sustav mu mora omogućiti pregled prijavljenih sudionika, pregled po državama od kuda sudionici dolaze, pregled po njihovim statusima te broj prijavljenih sudionika na pojedinim posebnim događanjima. Glavni administrator ima mogućnost 
+	upisa do najviše 15 grupa podataka o nekoj konferenciji, a pritom su obavezni dijelovi za svaku konferenciju:
+	\begin{itemize}
+		    \item   Raspored predavanja
+		    \item   Prezentacije predavanja u pdf formatu dostupne svim sudionicima za preuzimanje
+		    \item  Zbornik radova u pdf formatu dostupan svim sudionicima za preuzimanje
+		    \item   Mjesto događanja
+		\end{itemize}
+		\newline
+	   Također ima mogućnost postaviti sve multimedijske materijale na poslužitelj kako bi registrirani korisnici imali pristup tim materijalima u obliku pregleda te može preuzeti pdf s podacima o konferenciji.
+		
+		\item\textbf{Operativni administrator} koji prilikom dolaska na konferenciju svakom sudioniku dodjeljuje, tj. aktivira korisnički račun koji sudionik potom mora potvrditi putem elektroničke pošte. Za svakog korisnika treba upisati:
+		\begin{itemize}
+		    \item   Ime i prezime
+		    \item   Broj telefona
+		    \item   Adresu elektroničke pošte pod pretpostavkom da je svi sudionici koriste
+		    \item   Adresu
+		    \item   Državu
+		    \item Naziv institucije ili poduzeća iz kojeg dolazi
+		    \item Svojstvo sudjelovanja na konferenciji (gost, predavač, pozvani predavač, sudionik s objavljenim radom u zborniku, sudionik s plaćenom kotizacijom bez predavanja, pratnja sudionika)
+
+		\end{itemize}
+		
+		\item\textbf{Sudionik konferencije} čija je funkcija da pregledava podatke namijenjene sudionicima. Može se registrirati tek nakon početka i dolaska na konferenciju. Kako bi registracija bila uspješna potrebno je provjeriti zadovoljava li sudionik sve zahtjeve za registracijom, a ti su podaci dostupni u drugom, tj. nezavisnom informacijskom sustavu. Registrirani sudionik može izdati zahtjev o potvrdi za sudjelovanjem u obliku pdf datoteke koja će biti izrađena na službenom dokumentu, tj. memorandumu konferencije. Na njoj će biti navedeno da je sudionik (imenom i prezimenom) sudjelovao na određenoj konferenciji u navedenom vremenskom terminu.
+		\newline
+		\newline
+		Nakon kreiranja konferencije u sustavu upisuju se njeni podatci, a dostupni su do 30 dana nakon njenog završetka nakon čega se korisnicima zabranjuje pristup, osim glavnom administratoru koji ima period od 40 dana nakon završetka konferencije za spremanje svih podataka i zaključivanje rada s aplikacijom. Također se treba omogućiti prikaz podataka o trenutnim vremenskim uvjetima i prognozi vremena za lokaciju održavanja konferencije sudionicima što se preuzima od nekog javno dostupnog servisa. Obzirom da se sva događanja tijekom rada konferencije snimaju i slikaju od strane ovlaštenog fotografa na stranici postoji obavijest da se događaji snimaju. Potrebno je omogućiti pregled konferencija putem javno nedostupnog Youtube kanala kroz aplikaciju. Kanalu je moguće pristupiti preko poveznice koja se nalazi u aplikaciji. Pregled multimedijskih materijala napravljen je po danima, a pristupa im se zasebno za svaki pojedini dan. Po želji se pojedini materijali mogu skinuti i na lokalno računalo.
+		\newline
+		Tijekom konferencije su predviđena i posebna događaja te je broj mjesta na njima ograničen. Zbog toga se svaki sudionik treba prijaviti ukoliko želi na njima sudjelovati, a dozvoljeni broj sudionika je definiran od strane glavnog organizatora konferencije. Ukoliko nakon prijave sudionika sustav ustanovi da nema više slobodnih mjesta, glavnog administratora se obavještava putem elektroničke pošte o dostignutom najvećem broju sudionika na nekom događaju te ga se upućuje na potrebu rješavanja prekomjernih zahtjeva. Glavni administrator naknadno može povećati broj mogućih sudionika na nekom posebnom događaju, u tome slučaju se sudionici koji su na listi čekanja automatski prijavljuju na posebni događaj te dobivaju obavijest na mail da mogu pohađati taj posebni događaj.
+		\newline
+	    Sustav mora omogućiti istovremeni rad svih korisnika sustava i   
+	    unos hrvatskih dijakritičkih znakova.
